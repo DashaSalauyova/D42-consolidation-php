@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="connexion et attribution des roles d'utiilisateurs">
+    <title>Attribution des roles</title>
+</head>
+<body>
+    <h1>Connectez-vous</h1>
+    <!-- je crée un formulaire de connexion
+    j'utilise la methode GET pour recuperer les valeurs du formulaire -->
+    <form action="formulaire.php" method="GET">
+        <label for="firstname">Prénom :</label><input type="text" name="firstname" placeholder="Votre Prénom"/><br><br>
+        <label for="lastname">Name :</label><input type="text" name="lastname" placeholder="Votre Nom"/><br><br>
+        <label for="gender">Genre :</label>
+        <input type="radio" name="sexe" value="femme" checked/>Femme
+        <input type="radio" name="sexe" value="homme">Homme
+        <input type="radio" name="sexe" value="autre">Non-binaire<br><br>
+        <label for="statut">Vous êtes là en tant que :</label>
+        <select><option>Salarié</option><option>Invité</option></select><br><br>
+        <button>Connection</button>
+    </form>
+</body>
+</html>
+ 

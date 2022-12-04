@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="formulaire cours professeur">
+    <title>formulaire-html</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>FORMULAIRE d'inscription :</h2>
+    <!-- balise form sert pour organiser le formulaire
+        et en même temps pour indiquer la methode et le fichier php assosié -->
+    <form action="cours.php" method="post">
+    <!-- champs pour cours -->
+        <p>Nom de cours : <input type="text" name="cours" /></p>
+        <!-- champs pour professeur -->
+        <p>Nom de professeur : <input type="text" name="professeur" /></p>
+        <!-- bouton soumettre le formulaire pour envoyer les donnés -->
+        <p><input type="submit" value="Confirmer"></p> 
+    </form>
+</body>
